@@ -10,6 +10,7 @@ public class Main {
         MyThread t1 = new MyThread();
         TestArrayList arrl = new TestArrayList();
         TestLinkedList ll = new TestLinkedList();
+        Stream stream = new Stream();
         car.cars();
         car.bikes();
         s1.display();
@@ -100,6 +101,9 @@ public class Main {
         // Getting Last City In The Last Index
         System.out.println("Printing City On Last Index: "+ll.cities.getLast());
 
+        System.out.println(stream.evennum);
+        stream.startwitha.ifPresent(System.out::println);
     }
+
 
 }
