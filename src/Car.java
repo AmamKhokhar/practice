@@ -1,14 +1,11 @@
-public class Car{
+public class Car implements Vehicle{
 
-    String name = "Lambhorgini";
-    String color = "Black";
-    String model = "2018";
+    public void cars(){
+        System.out.println("Name: Lamborghini,Mercedes,BMW and Volkswagen");
+    }
 
-    void carDetails(){
-        System.out.println("Car Details Below---------");
-        System.out.println("Name: "+name);
-        System.out.println("Color: "+color);
-        System.out.println("Model: "+model);
+    public void bikes(){
+        System.out.println("Yamaha,Hayabusa and Ninja");
     }
 
 }
