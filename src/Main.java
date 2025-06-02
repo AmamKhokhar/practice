@@ -41,6 +41,19 @@ public class Main {
         arrl.names.add("Ali");
         arrl.names.add("Nauman");
 
+        arrl.cars.add("Lamborghini");
+        arrl.cars.add("Honda");
+        arrl.cars.add("Mitsubishi");
+        arrl.cars.add("Nissan");
+        arrl.cars.add("BMW");
+
+        int range = arrl.cars.size();
+        int middindex = range/2;
+        arrl.cars.remove(middindex);
+
+        System.out.println("Printing Arraylist of Cars After Removing Middle");
+        System.out.println(arrl.cars);
+
         // Printing Names in ArrayList
         System.out.println("Names in the ArrayList-----------");
         for (String name : arrl.names){
