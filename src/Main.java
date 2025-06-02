@@ -1,6 +1,8 @@
 public class Main {
     public static void main(String[] args) {
             check1();
+            add(1 ,4 );
+            add(2.3,3.2);
     }
         static void check1() {
             String f = new String("amam");
@@ -10,5 +12,13 @@ public class Main {
             System.out.println("Result of Using == ");
             System.out.println(f == s);
         }
+        static void add(int a, int b){
+            System.out.println(a+b);
+        }
+        static void  add(double a,double b){
+            System.out.println(a + b);
+        }
+
+
 
 }
