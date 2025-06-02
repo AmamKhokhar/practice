@@ -1,8 +1,14 @@
 public class Main {
     public static void main(String[] args) {
-            check1();
-            add(1 ,4 );
-            add(2.3,3.2);
+
+        Car car = new Car();
+        Student s1 = new Student("Amam",22,"Male");
+        car.carDetails();
+        s1.display();
+//        check1();
+//        add(1 ,4 );
+//        add(2.3,3.2);
+
     }
         static void check1() {
             String f = new String("amam");
